@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat Form</title>
+</head>
+<body>
+    <h2>FORM</h2>
+    <form action="#" method="get">
+        <!-- Input Text -->
+        <input type="text" name="nama" placeholder="Enter your name here."><br><br>
+        <input type="text" name="alamat" placeholder="Enter your address here."><br><br>
+
+        <!-- Checkbox Student -->
+        Are you a student? <input type="checkbox" name="student"><br><br>
+
+        <!-- Radio Button Umur -->
+        <b>How old are you?</b><br>
+        <input type="radio" name="umur" value="10-15"> 10 - 15 <br>
+        <input type="radio" name="umur" value="16-20"> 16 - 20 <br>
+        <input type="radio" name="umur" value="21-25"> 21 - 25 <br><br>
+
+        <!-- Checkbox Kendaraan -->
+        <b>Which one do you have?</b><br>
+        <input type="checkbox" name="vehicle1" value="Bike" checked> I have a bike <br>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car <br>
+        <input type="checkbox" name="vehicle3" value="Boat"> I have a boat <br><br>
+
+        <!-- Select Negara -->
+        <b>Where are you from?</b><br>
+        <select name="var6" size="1">
+            <option value="BG">Bulgaria</option>
+            <option value="UK">United Kingdom</option>
+            <option value="USA" selected>USA</option>
+            <option value="ID">Indonesia</option>
+        </select>
+        <br><br>
+
+        <!-- Input Private Code -->
+        Enter your private code <input type="text" name="privatecode"><br><br>
+
+        <!-- Text Area Komentar -->
+        Enter your comment <br>
+        <textarea name="comment" rows="4" cols="40">Fill this area</textarea><br><br>
+
+        <!-- Tombol Submit & Reset -->
+        <input type="submit" value="Send">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
